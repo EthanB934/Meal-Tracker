@@ -51,23 +51,12 @@ The meal tracker mobile application is supported both on iOS and Android devices
 7. The Expo Go app in development on the computer will now be hosted on your mobile device for viewing.
 
 # Additional Dependencies Installed Outside of Expo
-  Click the headers below to read their documentation
-  ##[Clickable Expo Router](https://docs.expo.dev/router/installation/)
+  [Expo Router](https://docs.expo.dev/router/installation/)
   
-  [Clickable Expo Router](https://docs.expo.dev/router/installation/)
+  [Expo SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/)
   
-  ## Expo SQLite
-  Detailed documentation about the expo SQLite package and its dependencies can be found here:
-  https://docs.expo.dev/versions/latest/sdk/sqlite/
+  [Zustand](https://zustand.docs.pmnd.rs/learn/getting-started/introduction)
 
-  ## Zustand
-  Detailed documentation about the Zustand can be found here:
-  https://zustand.docs.pmnd.rs/learn/getting-started/introduction
+  [React Hook Forms](https://react-hook-form.com/get-started)
 
-  ## React Hook Forms
-  Detailed documentation about the React Hook Forms package can be found here:
-  https://react-hook-form.com/get-started
-
-  ## NativeWind (Tailwind for React Native)
-  Detailed documentation about the Nativewind package and its dependenciees can be found here:
-  https://www.nativewind.dev/docs/getting-started/installation
+  [Nativewind](https://www.nativewind.dev/docs/getting-started/installation)
