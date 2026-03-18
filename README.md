@@ -51,9 +51,8 @@ The meal tracker mobile application is supported both on iOS and Android devices
 7. The Expo Go app in development on the computer will now be hosted on your mobile device for viewing.
 
 # Additional Dependencies Installed Outside of Expo
-  ## Expo Router
-  Detailed documentation about the expo router and its dependencies can be found here:
-  https://docs.expo.dev/router/installation/
+  Click the headers below to read their documentation
+  ## [Clickable Expo Router] (https://docs.expo.dev/router/installation/)
 
   ## Expo SQLite
   Detailed documentation about the expo SQLite package and its dependencies can be found here:
