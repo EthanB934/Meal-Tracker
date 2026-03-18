@@ -28,3 +28,18 @@ The meal tracker mobile application is supported both on iOS and Android devices
   A meal consists of one or many different food items. Generally, people breakdown their diet upon three different meal times, a breakfast, a lunch, and a dinner. Snacks is included as an additional meal option in this
   application for more precise tracking should the user so desire. A snack is food item eaten outside of a person's dedicated meal times. Each meal aggregates the food items incorporated therein and contributes to the
   overall daily nutritional summary of goals that a user sets in their preferences.
+
+# Local Development Setup
+  ## Windows Subsystem for Linux
+  1. Install the latest version of nodejs.
+  2. On your mobile device, install the latest version of Expo Go
+    Here is a link containing a QR from which, once scanned via your mobile device, you will be routed to your app store to download the Expo Go mobile app:
+    https://docs.expo.dev/get-started/set-up-your-environment/
+  3. Clone the meal tracker's repository to your local development environment
+  4. Run the command `npm install expo`.
+     You may be prompted to update the expo app to the latest version, 55.0.0. However, the dependencies installed will retain Expo Go's current version installed according to the `package.json` located in this repository: 54.0.33
+  5. Run the command `npx expo start --tunnel`
+     The `tunnel` option is required when developing on Windows Subsystem for Linux. Expo Go relies on the developer's mobile device and computer to be on the same network. However, Windows Subsystem for Linux is hosted by a different provider than
+     the developer's home or office wi-fi. Thus, the `tunnel` options provides a remote server to host both the Expo Go app locally on the computer and the Expo Go on the developer's mobile device.
+  6. Once the QR code is exposed in the development environment, use the Expo Go app on your mobile device to scan that QR code.
+  7. The Expo Go app in development on the computer will now be hosted on your mobile device for viewing.
