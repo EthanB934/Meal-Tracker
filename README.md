@@ -36,7 +36,9 @@ The meal tracker mobile application is supported both on iOS and Android devices
     Here is a link containing a QR from which, once scanned via your mobile device, you will be routed to your app store to download the Expo Go mobile app:
     https://docs.expo.dev/get-started/set-up-your-environment/
   3. Clone the meal tracker's repository to your local development environment
-  4. Run the command `npm install expo`.
+  4. Run the command
+      #
+         npm install expo
      You may be prompted to update the expo app to the latest version, 55.0.0. However, the dependencies installed will retain Expo Go's current version installed according to the `package.json` located in this repository: 54.0.33
   5. Run the command `npx expo start --tunnel`
      The `tunnel` option is required when developing on Windows Subsystem for Linux. Expo Go relies on the developer's mobile device and computer to be on the same network. However, Windows Subsystem for Linux is hosted by a different provider than
