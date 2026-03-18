@@ -49,3 +49,24 @@ The meal tracker mobile application is supported both on iOS and Android devices
    the developer's home or office wi-fi. Thus, the `tunnel` options provides a remote server to host both the Expo Go app locally on the computer and the Expo Go on the developer's mobile device.
 6. Once the QR code is exposed in the development environment, use the Expo Go app on your mobile device to scan that QR code.
 7. The Expo Go app in development on the computer will now be hosted on your mobile device for viewing.
+
+# Additional Dependencies Installed Outside of Expo
+  ## Expo Router
+  Detailed documentation about the expo router and its dependencies can be found here:
+  https://docs.expo.dev/router/installation/
+
+  ## Expo SQLite
+  Detailed documentation about the expo SQLite package and its dependencies can be found here:
+  https://docs.expo.dev/versions/latest/sdk/sqlite/
+
+  ## Zustand
+  Detailed documentation about the Zustand can be found here:
+  https://zustand.docs.pmnd.rs/learn/getting-started/introduction
+
+  ## React Hook Forms
+  Detailed documentation about the React Hook Forms package can be found here:
+  https://react-hook-form.com/get-started
+
+  ## NativeWind (Tailwind for React Native)
+  Detailed documentation about the Nativewind package and its dependenciees can be found here:
+  https://www.nativewind.dev/docs/getting-started/installation
